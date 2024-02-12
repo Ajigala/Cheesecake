@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika&family=Jost:wght@500&family=Merriweather&family=Outfit&family=Poppins:wght@400;600&family=Roboto&display=swap");
+html {
+  --Buttoncolor: #6a4028;
+  --Buttonfont: "Poppins";
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Images/bg.png);
+  background-size: cover;
+  margin: auto;
+  padding: 0 5% 10px;
+  height: auto;
+  /* max-width: 1440px; */
+}
+.logo img {
+  width: 150px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 300px;
+}
+nav .navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+nav .links {
+  background-color: var(--Buttoncolor);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: auto;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+.btn {
+  margin-left: 300px;
+  /* background-color: transparent; */
+}
+.navlinks ul li {
+  display: inline-block;
+}
+.navlinks a {
+  display: inline-flex;
+  color: white;
+  margin-right: 30px;
+  padding: 10px;
+}
+nav .fas {
+  display: none;
+  font-size: 1.5rem;
+}
+.fa-bars {
+  margin-left: auto;
+}
+.btn button {
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 3px solid var(--Buttoncolor);
+  font-size: 14px;
+  color: var(--Buttoncolor);
+  /* margin-left: auto; */
+  width: 100px;
+}
+.section1card {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.cardleft {
+  width: 40%;
+}
+.cardleft h1 {
+  font-size: 3rem;
+  font-family: "inika";
+  font-weight: lighter;
+}
+.cardleft p {
+  font-size: 1.2rem;
+}
+.button1 {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background: var(--Buttoncolor);
+  color: white;
+  font-family: "Poppins";
+}
+.button2 {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  /* background: var(--Buttoncolor); */
+  color: black;
+  font-family: "Poppins";
+}
+.button2 .fa-circle-play {
+  color: #6a4028;
+}
+.cardright img {
+  width: 300px;
+  margin-top: -40px;
+}
+.section2 {
+  margin: auto;
+  max-width: 1440px;
+  padding: 0 5%;
+}
+.section2card {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.section2card1 img {
+  margin-top: -60px;
+}
+.section2card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  width: 50%;
+}
+.section2card2 h1 {
+  font-family: "inika";
+}
+.section2card2 p {
+  margin: 10px 0;
+}
+.section2card2 button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background: var(--Buttoncolor);
+  color: white;
+  font-family: "Poppins";
+}
+.section3 {
+  /* max-width: 1440px; */
+  margin: auto;
+  padding: 0 5%;
+  background: #6a4028e5;
+}
+.section3cardcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section3cardcontainer h1 {
+  align-self: center;
+  margin-top: 20px;
+  font-family: "inika";
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.section3card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 5%;
+}
+.card {
+  background: white;
+  padding: 20px 30px;
+  width: 320px;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  /* align-content: center; */
+  border-radius: 20px;
+}
+.card img {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.card .content {
+  margin: 20px 20px;
+}
+.card .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewmore {
+  align-self: flex-end;
+  color: white;
+  padding: 10px;
+}
+.viewmore a {
+  color: white;
+}
+.price strong {
+  font-size: 1rem;
+  color: rgb(15, 235, 15);
+}
+.rating span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--Buttoncolor);
+}
+.content h3 {
+  font-size: 1.1rem;
+}
+.section4 {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 5% 0;
+}
+.section4container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.section4container h1,
+.section4container h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "inika";
+}
+.section4cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.section4card {
+  width: 280px;
+  margin-top: 30px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.6);
+}
+.section4card img {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+}
+.section4card h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.section4card p {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.section4card span {
+  color: #bb6939;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.section4card a {
+  color: #734b33;
+  font-weight: bold;
+}
+footer {
+  /* max-width: 1440px; */
+  margin: auto;
+  margin-top: 50px;
+  background: #6a4028f0;
+  padding: 30px 5%;
+}
+.footercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+
+  margin-bottom: 30px;
+  padding: 0 5%;
+}
+.contact1 {
+  width: 40%;
+  color: #ffffff;
+  margin: auto;
+}
+.contact1 img {
+  width: 300px;
+}
+.contact2 {
+  margin-top: 60px;
+}
+.contact2 input {
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contact2 #search {
+  width: 300px;
+  height: 200px;
+  border: none;
+  padding: 10px;
+  /* border-radius: 20px; */
+}
+.contact2 button {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background: #fcae36;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footerend {
+  text-align: center;
+  color: #ffffff;
+}
+.fab {
+  padding: 5px;
+  background: white;
+  border-radius: 50%;
+  color: black;
+}
+.socials .fab:nth-child(1) {
+  padding: 5px;
+  background: #fcae36;
+  border-radius: 50%;
+  color: white;
+}
+@media (max-width: 1440px) {
+  body {
+    font-size: 14px;
+  }
+  .section1 {
+    flex-direction: column;
+  }
+  nav {
+    gap: 0;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .fa-xmark {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+  }
+  nav .fas {
+    display: block;
+  }
+  nav .navlinks {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: -100%;
+    width: 40%;
+    height: 100%;
+    padding-top: 30%;
+    z-index: 999;
+    transition: right 0.5s ease;
+    background-color: #6a4028;
+  }
+  nav .navlinkshow {
+    right: 0;
+  }
+  .links {
+    text-align: left;
+  }
+  .navlinks ul li {
+    display: block;
+    top: 10px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .btn {
+    margin: 0;
+    text-align: center;
+  }
+  .btn button {
+    background: #fcae36;
+    padding: 5px;
+    font-weight: bold;
+    color: #6a4028;
+  }
+  .section1card {
+    flex-direction: column;
+  }
+  .cardleft {
+    width: 100%;
+  }
+  .cardleft h1 {
+    font-size: 2rem;
+  }
+  .section2card {
+    flex-direction: column-reverse;
+  }
+  .section2card img {
+    margin-top: -50px;
+    width: 300px;
+    text-align: center;
+  }
+  .section2card2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .section3card {
+    /* flex-direction: column; */
+    gap: 20px;
+  }
+  .section4cardcontainer {
+    gap: 50px;
+  }
+  .footercontainer {
+    flex-direction: column;
+
+    gap: 10px;
+  }
+  .contact1 {
+    width: 100%;
+  }
+}
